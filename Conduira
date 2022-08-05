@@ -1,0 +1,12 @@
+import java.io.*;
+class A extends Thread {
+    public void run()
+    {
+        System.out.print("Welcome to This.");
+    }
+    public static void main(String[] args)
+    {
+        A g = new A(); // creating thread
+        g.start(); // starting thread
+    }
+}
